@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: gaspar-iot01
+  host: gaspar-iot01
+  disk_quota: 1024M
+  services:
+  - gaspar-iot01-cloudantNoSQLDB
+  - gaspar-iot01-iotf-service
